@@ -19,3 +19,24 @@ section{
 .col-12{
     padding: 0px !important;
 }
+.title, .number{
+    color: hsl(0, 0%, 100%);
+    font-size: 29px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.text, .value1, .value2, .value3{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+.title{
+    font-size: 29px;
+}
+.number{
+    font-size: 23px;
+}
+.blocText{
+    padding: 0px 28px;
+}
