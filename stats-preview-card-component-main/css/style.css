@@ -59,3 +59,38 @@ section{
 .insights{
     color: hsl(277, 64%, 61%);
 }
+@media (min-width: 1400px){
+    .body{
+        background-color: white !important;
+    }
+    .blocimageText{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .image {
+        width: 100%;
+    }
+    .image-container::before, .image {
+        border-radius: 0% 3% 3% 0%;
+    }
+    .title{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .text{
+        font-size: 17px;
+    }
+    .blocText {
+        padding: 0px 103px;
+        margin-top: 64px;
+    }
+    .blocValue{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 52px;
+    }
+    section{
+        text-align: left;
+        margin: 41px 25px 11px 25px;
+    }
+}
