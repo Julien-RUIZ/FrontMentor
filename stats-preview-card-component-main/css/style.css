@@ -1,0 +1,21 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(233, 47%, 7%) !important;
+}
+.image{
+    width: 100%;
+    border-radius: 3% 3% 0% 0%;
+}
+section{
+    color: aliceblue;
+    text-align: center;
+    margin: 41px 25px 11px 25px;
+}
+.box{
+    background-color: hsl(244, 38%, 16%);
+    margin-top: 10px;
+}
+.col-12{
+    padding: 0px !important;
+}
